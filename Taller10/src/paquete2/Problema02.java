@@ -51,7 +51,6 @@ public class Problema02 {
         for (int i = 0; i < adultosFamilia.length; i++) {
             System.out.println("Familia " + (i + 1) + ": " + adultosFamilia[i] 
                     + " adultos.");
-            
         }
     }
 }
