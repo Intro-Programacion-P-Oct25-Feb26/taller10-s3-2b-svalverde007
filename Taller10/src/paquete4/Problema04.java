@@ -36,8 +36,8 @@ public class Problema04 {
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US);
 
-        double[][] matriz1 = new double[3][2];
-        double[][] matriz2 = new double[3][2];
+        int[][] matriz1 = new int[3][2];
+        int[][] matriz2 = new int [3][2];
         String reporte = "";
 
         System.out.println("Ingrese los valores de la matriz A:");
@@ -57,7 +57,7 @@ public class Problema04 {
         reporte = String.format("%s\n Matriz A:\n", reporte);
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 2; j++) {
-                reporte = String.format("%s %d ", reporte, matriz1[i][j]);
+                reporte = String.format("%s%d ", reporte, matriz1[i][j]);
             }
             reporte = String.format("%s\n", reporte);
         }
@@ -102,5 +102,3 @@ public class Problema04 {
         System.out.println(reporte);
     }
 }
-
-
